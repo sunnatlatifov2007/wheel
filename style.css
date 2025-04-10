@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.car{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+.middle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+.middle2{
+    display: flex;
+}
+.zapas1{
+    color: #707070;
+    font-size: 20px;
+
+}
+.price1{
+    color: #707070;
+    font-size: 20px;
+}
+.kmmax{
+    font-weight: 700;
+    font-size: 40px;
+}
+.dollar{
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.footer{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 50px;
+    margin-right: 150px;
+    margin-top: 30px;
+}
+.speed1{
+  color:#707070 ;
+  font-size: 12px;
+
+}
+.speed{
+margin-top: 30px;  
+}
+button{
+    width: 20px;
+    border-radius: 100%;
+    border: 3px solid rgba(0, 0, 0, 0.945);
+}
+button:hover{
+    transform: translateY(-2px);
+}
+button:active{
+    transform: translateY(3px);
+}
+.btns{
+    transform: translateY(15px);
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.tempe{
+    margin-top: 30px;
+}
+.tempe1{
+    color:#707070 ;
+    font-size: 12px;
+}
+.degree{
+    font-weight: 700;
+    font-size: 40px;
+}
+.btns2{
+    transform: translateY(15px);
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.wheel{
+ margin-top: 30px;
+}
+.wheel1{
+    color:#707070 ;
+    font-size: 12px;
+
+}
+.km{
+  font-weight: 700;
+  font-size: 40px;
+}
+.wheel19{
+    font-weight: 700;
+    font-size: 40px;
+    
+
+}
+.btns3{
+    transform: translateY(15px);
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.conditioner1{
+    color:#707070 ;
+    font-size: 12px;
+}
+
+  .conditioner1{
+    margin-top: 30px;
+    padding-bottom:5px ;
+  }
+
+  .switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+
+
+  .switch input {
+    display: none;
+  }
+
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: background-color 0.4s;
+    border-radius: 34px;
+  }
+
+  .slider::before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    transition: transform 0.4s;
+    border-radius: 50%;
+  }
+
+  input:checked + .slider {
+    background-color: blue;
+  }
+
+  input:checked + .slider::before {
+    transform: translateX(26px);
+  }
+  .version{
+    margin-top: 30px;
+  }
+  .version1{
+    color:#707070 ;
+    font-size: 12px;
+    padding-bottom: 8px;
+  }
+  .type1{
+    color:#707070 ;
+    font-size: 12px;
+    padding-bottom: 8px;
+  }
+  .type{
+    margin-top: 30px;
+  }
+
+  .wheel-image {
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  #wheelImage {
+    transition: transform 0.3s ease;
+    width: 70px;
+    margin-right: 120px;
+  }
+  
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  #wheelImage {
+    transform-origin: center center;
+  }
+  
